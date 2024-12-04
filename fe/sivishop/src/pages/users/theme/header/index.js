@@ -16,7 +16,7 @@ import { formatter } from "utils/fomater";
 import { ROUTERS } from "utils/router";
 
 const Header = () => {
-  const [isShowCategories, setShowCategories] = useState(false);
+  const [isShowCategories, setShowCategories] = useState(true);
   const [menus] = useState([
     {
       name: "Trang Chủ",
